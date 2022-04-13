@@ -1,0 +1,334 @@
+html {
+    width: 100%;
+    height: 100%;
+    min-height: 100%
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+p { color: #4c4a37; font-family: 'Source Sans Pro', sans-serif;width: 100%;
+ font-size: 18px; line-height: 32px; margin: 0 0 24px; }
+
+#benefits li{
+   color: #4c4a37; font-family: 'Source Sans Pro', sans-serif;width: 100%;
+ font-size: 18px; line-height: 32px; margin: 0 0 24px; 
+ text-align: left;
+ margin: 0.2em 0;
+}
+
+#signuptext{
+    font-size: 22px;
+    color: #009900;
+}
+
+.intro-section {
+    height: auto;
+    width: 100%;
+    padding-top: 0px;
+    text-align: center;
+    background: #fff;
+}
+
+.urdu-guide-section {
+    height: auto;
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+    background: #fff;
+}
+
+.view-section {
+    height: auto;
+    width: 100%;
+    padding-top: 7%;
+    text-align: center;
+    background: #eee;
+}
+
+.addemployee-section {
+    height: auto;
+    width: 100%;
+    padding-top: 7%;
+    text-align: center;
+    background: #fff;
+}
+
+.editdetails-section {
+    height: auto;
+    width: 100%;
+    padding-top: 7%;
+    text-align: center;
+    background: #eee;
+}
+
+#headingintro {
+    color: white;
+    margin-top: 35%;
+    margin-right: 70%;
+}
+
+
+header {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../header_bg.jpg") no-repeat center center fixed;
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+  height: auto;
+  
+}
+
+.navbar {
+        background-color: rgba(0,0,0,0.7);
+}
+
+.intro-section .button {
+    position: relative;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 70%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    cursor: pointer;
+    
+    
+}
+
+.view-section .button{
+    position: relative;
+    
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5%;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20%;
+    border-radius: 25px;
+
+}
+
+.addemployee-section .button{
+    position: relative;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5%;
+    font-size: 16px;
+    margin-bottom: 20%;
+    border-radius: 25px;
+}
+
+.editdetails-section .button{
+
+    position: relative;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5%;
+    font-size: 16px;
+    margin-bottom: 20%;
+    border-radius: 25px;
+}
+
+.urdu-guide-section .button{
+
+    position: relative;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5%;
+    font-size: 16px;
+    margin-bottom: 20%;
+    border-radius: 25px;
+}
+
+
+#allemployees{
+    background-color: #FF9131;   
+}
+
+#searchbyemployee{
+    background-color: #d198ed;  
+}
+
+#mPlayer {
+  display: none;
+  background: rgba(0, 0, 0, .8);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  left: 0;
+  top: 0;
+}
+
+#mPlayer DIV {
+  position: fixed;
+  background: #000;
+  width: 560px;
+  height: 315px; 
+  left: calc(50vw - 280px); 
+  top: calc(50vh - 157px); 
+}
+
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 10px 0;
+    }
+}
+
+    
+}
+
+
+
+
+ @media only screen and (max-height: 500px) { 
+    p { color: #4c4a37; font-family: 'Source Sans Pro', sans-serif;width: 100%;
+ font-size: 16px; line-height: 30px; margin: 0 0 24px; }
+
+
+
+}
+
+@media only screen and (max-width: 991px) { 
+    p { color: #4c4a37; font-family: 'Source Sans Pro', sans-serif;width: 100%;
+ font-size: 16px; line-height: 30px; margin: 0 0 24px; }
+#headingintro {
+    color: white;
+    margin-top: 45%;
+    margin-right: 50%;
+    font-size: 24px;
+}
+
+.urdu-guide-section {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+}
+
+#benefits li{
+   color: #4c4a37; font-family: 'Source Sans Pro', sans-serif;width: 100%;
+ font-size: 16px; line-height: 32px; margin: 0 0 24px; 
+ text-align: left;
+ margin: 0.2em 0;
+}
+
+#signuptext{
+    font-size: 22px;
+}
+
+h1{
+    font-size: 22px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+#signuptext{
+    font-size: 20px;
+    color: #009900;
+}
+
+
+.intro-section .button {
+    position: relative;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 4%;
+    margin-bottom: 20%;
+    margin-right: 50%;
+    cursor: pointer;
+}
+
+.view-section .button{
+    position: relative;
+    
+    color: black;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5%;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20%;
+    border-radius: 25px;
+
+}
+
+.addemployee-section .button{
+    position: relative;
+    color: black;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5%;
+    font-size: 16px;
+    margin-bottom: 20%;
+    border-radius: 25px;
+}
+
+.editdetails-section .button{
+
+    position: relative;
+    color: black;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5%;
+    font-size: 16px;
+    margin-bottom: 20%;
+    border-radius: 25px;
+}
+
+
+}
